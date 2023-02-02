@@ -1,7 +1,7 @@
 node {
 
    def registryProjet='NyckolasP/'
-   def IMAGE="${registryProjet}centos"
+   def IMAGE="${registryProjet}app:3.5"
 
     stage('Clone') {
           checkout scm
